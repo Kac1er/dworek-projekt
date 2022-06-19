@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="./assets/icons/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/icons/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/icons/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./assets/icons/site.webmanifest" />
+		<link
+			rel="mask-icon"
+			href="./assets/icons/safari-pinned-tab.svg"
+			color="#5bbad5"
+		/>
+		<meta name="theme-color" content="#ffffff" />
+		<meta
+			name="description"
+			content="Dworek pod lipami jest malowniczym miejscem położonym w Katowicach, swoją historią sięga do początku XX wieku kiedy to Zillmanowie postanowili wybudować unikatowe osiedle."
+		/>
+		<title>Dworek Pod Lipami Katowice | Strona Główna</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;500&family=Nunito+Sans&family=Open+Sans:wght@300;400;600;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./styles/main.css" />
+	</head>
+	<body>
+		<nav class="nav">
+			<div class="nav__container wrapper">
+				<button class="nav__burger-btn" role="button" aria-label="Nawigacja hamburgerowa">
+					<div class="nav__burger-box">
+						<span class="nav__burger-bar"></span>
+					</div>
+				</button>
+				<ul class="nav__list">
+					<li class="nav__list-item nav__list-item--active">
+						<a href="#">Home</a>
+					</li>
+					<li class="nav__list-item"><a href="#">O nas</a></li>
+					<li class="nav__list-item"><a href="#">Wesela</a></li>
+					<li class="nav__list-item"><a href="#">Oferta</a></li>
+					<li class="nav__list-item"><a href="#menu">Menu</a></li>
+					<li class="nav__list-item"><a href="#">Noclegi</a></li>
+					<li class="nav__list-item"><a href="#">Galeria</a></li>
+					<li class="nav__list-item"><a href="#">Kontakt</a></li>
+				</ul>
+				<a href="./index.html" class="nav__brand">
+					<span class="nav__city-location">Katowice</span
+					><img
+						class="nav__logo"
+						src="./assets/global/logo.svg"
+						alt="Czerwone logo z charakterystycznymi liściami dworku pod lipami"
+					/>
+				</a>
+			</div>
+		</nav>
+		<header class="header">
+			<h1 class="header__heading">Oferta wigilijna</h1>
+			<button class="header__button">sprawdź</button>
+			<div
+				class="header__background header__background--first header__background--active"
+			></div>
+			<div class="header__background header__background--second"></div>
+			<div class="header__background header__background--third"></div>
+			<ul class="header__slider-dots">
+				<li class="header__slider-dots-dot header__slider-dots-dot--active">
+					<button
+						data-slide="1"
+						role="button"
+						aria-label="Przycisk nawigujący, przejdź do slajdu numer 1"
+					></button>
+				</li>
+				<li class="header__slider-dots-dot">
+					<button
+						data-slide="2"
+						role="button"
+						aria-label="Przycisk nawigujący, przejdź do slajdu numer 2"
+					></button>
+				</li>
+				<li class="header__slider-dots-dot">
+					<button
+						data-slide="3"
+						role="button"
+						aria-label="Przycisk nawigujący, przejdź do slajdu numer 3"
+					></button>
+				</li>
+			</ul>
+		</header>
+		<main class="main">
+			<section class="about wrapper">
+				<h2 class="about__heading">O nas</h2>
+				<article class="about__article">
+					<h3 class="about__article-heading">Rok 1906...</h3>
+					<p class="about__article-text">
+						Ponad sto lat temu, w głowach dwóch architektów, którym zlecano
+						zaprojektowanie kolonii robotniczej Giszowiec, narodził się
+						pomysł... pomysł prosty, acz genialny.
+					</p>
+					<p class="about__article-text">
+						Zillmannowie postanowili wybudować osiedle absolutnie unikatowe,
+						którego architektura utrzymana będzie w stylu wiejskim, projekt
+						całości oparty będzie na idei „Miasta ogrodu” , a w samym centrum
+						stanie okazała i tętniąca życiem Gospoda.
+					</p>
+					<p class="about__article-text">
+						Jak pomyśleli, tak zrobili, a dzięki ich inicjatywie powstało jedno
+						z najpiękniejszych, najzieleńszych i najbardziej sielskich miejsc na
+						Górnym Śląsku, które do dziś jest inspiracją dla filmowców, pisarzy,
+						malarzy, ale i kucharzy.
+					</p>
+				</article>
+				<article class="about__article">
+					<h3 class="about__article-heading">Rok 2006...</h3>
+					<p class="about__article-text">
+						Swoje drzwi otwiera restauracja Dworek „Pod Lipami”. To miejsce,
+						gdzie krzyżują się szlaki kulinarne nie tylko polskie ale i
+						światowe. Panująca tu atmosfera, doskonały styl i elegancja zaspokoi
+						najbardziej wybredne gusta.
+					</p>
+					<p class="about__article-text about__article-text--last">
+						Oferujemy Państwu szerokie menu, konkurencyjne ceny, doskonałe
+						walory smakowe i odżywcze serwowanych potraw, wyłącznie pewnych i
+						sprawdzonych dostawców, kompetentną, wykwalifikowaną i miłą obsługę
+						oraz najwyższą jakość i niepowtarzalny smak naszej kuchni.
+					</p>
+				</article>
+				<img
+					class="about__image"
+					src="./assets/images/about/manor-house.png"
+					alt="Duży biały budynek którym jest dworek pod lipami, podjazd w stronę dworku wyłożony jest szarą kostką a całość otacza piękna i różnorodna zieleń. Wejście do dworku udekorowane jest charakterystycznym bordowym logiem tego miejsca"
+				/>
+			</section>
+			<section class="wedding">
+				<h2 class="wedding__heading section-heading-primary">Wesela</h2>
+				<p class="wedding__text">
+					<strong class="wedding__text-important"
+						>Wesela organizowane w naszej restauracji mają wyjątkowy
+						charakter.</strong
+					>
+					Z ogromną przyjemnością pomożemy Państwu w organizacji tak ważnego
+					dnia w życiu każdego człowieka. Do Państwa dyspozycji oddajemy salę
+					kameralną, mieszczącą do 52 osób oraz klimatyzowaną salę balową (ilość
+					osób zależna od ustawienia sali, od 75 do 160 osób). Dodatkowo sala
+					balowa wyposażona jest w dużą scenę wraz z dwoma garderobami oraz
+					stylowy balkon, mieszczący dodatkowo do 30 osób. Chętnie udzielimy
+					wielu cennych wskazówek, dotyczących skomponowania odpowiedniego menu,
+					uwzględniając specjalne życzenia i preferencje Państwa Młodych.
+					Uczestnikom imprez organizowanych w naszej restauracji zapewniamy
+					miejsca parkingowe. Restauracja w pełni przystosowana jest dla osób
+					niepełnosprawnych. Posiadamy również pokoje gościnne w bezpośrednim
+					sąsiedztwie naszego lokalu. Dla każdej Pary Młodej przygotowaliśmy
+					zaproszenie na rocznicowy obiad.
+				</p>
+				<div class="wedding__offer">
+					<div class="wedding__offer-item">
+						<img
+							src="./assets/images/wedding/wedding-offer-1.png"
+							alt="Przykryty białym obrusem okrągły stół weselny wyposażony w odpowiednie sztućce i naczynia"
+							class="wedding__offer-image"
+						/>
+						<p class="wedding__offer-name">Oferta weselna</p>
+						<a href="#" class="wedding__offer-link">zobacz oferte</a>
+					</div>
+					<div class="wedding__offer-item">
+						<img
+							src="./assets/images/wedding/wedding-offer-2.png"
+							alt="Bogato zastawiony stół z różnego rodzaju wyrobami mięsnymi ułożonymi na talerzach w bardzo schludny i ładny sposób"
+							class="wedding__offer-image"
+						/>
+						<p class="wedding__offer-name">Stół wiejski</p>
+						<a href="#" class="wedding__offer-link">zobacz oferte</a>
+					</div>
+					<div class="wedding__offer-item">
+						<img
+							src="./assets/images/wedding/wedding-offer-3.png"
+							alt="Bogato zastawiony stół z róznego rodzaju słodyczami i deserami, przeważającą ilością znajdujących się tutaj wyrobów są babeczki"
+							class="wedding__offer-image"
+						/>
+						<p class="wedding__offer-name">Stół słodki</p>
+						<a href="#" class="wedding__offer-link">zobacz oferte</a>
+					</div>
+				</div>
+			</section>
+			<section class="offer">
+				<div class="offer__container wrapper">
+					<h2 class="offer__heading section-heading-secondary">Oferta</h2>
+					<ul class="offer__list">
+						<li class="offer__list-item">
+							<button
+								class="offer__list-button offer__list-button--active"
+								data-offer="1"
+							>
+								Imprezy okolicznościowe
+							</button>
+						</li>
+						<li class="offer__list-item">
+							<button class="offer__list-button" data-offer="2">
+								Catering
+							</button>
+						</li>
+						<li class="offer__list-item">
+							<button class="offer__list-button" data-offer="3">Voucher</button>
+						</li>
+						<li class="offer__list-item">
+							<button class="offer__list-button" data-offer="4">Biznes</button>
+						</li>
+						<li class="offer__list-item">
+							<button class="offer__list-button" data-offer="5">
+								Twoje przyjęcie w ogrodzie
+							</button>
+						</li>
+						<li class="offer__list-item">
+							<button class="offer__list-button" data-offer="6">
+								Oferta świąteczna
+							</button>
+						</li>
+						<li class="offer__list-item">
+							<button class="offer__list-button">Oferta wigilijna</button>
+						</li>
+						<li class="offer__list-item">
+							<button class="offer__list-button">Oferta sylwestrowa</button>
+						</li>
+					</ul>
+					<img
+						src="./assets/images/offer/offer-1.png"
+						alt="Sala bankietowa dworku pod lipami wraz z czerwoną sofą i różnymi tematycznymi dekoracjami które nadają całości uroku i charakteru"
+						class="offer__image"
+					/>
+					<div class="offer__content">
+						<p class="offer__text">
+							<strong
+								>Jeżeli planują Państwo organizację małego przyjęcia
+								okolicznościowego czy większej imprezy firmowej zapraszamy do
+								współpracy.</strong
+							>
+							<span class="text-newline"
+								>W naszej restauracji istnieje wiele możliwości aranżacji
+								pomieszczeń oraz ustawienia stołów.
+							</span>
+							Wydzielone przestrzenie pozwalają na zapewnienie prywatności
+							podczas trwania przyjęcia.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="menu wrapper" id="menu">
+				<h2 class="menu__heading">Menu restauracji</h2>
+				<button class="menu__button">sprawdź</button>
+			</section>
+			<section class="accomodation">
+				<div class="accomodation__container wrapper">
+					<h2 class="accomodation__heading section-heading-primary">Noclegi</h2>
+					<div class="accomodation__item">
+						<img
+							src="./assets/images/accomodation/accomodation-1.png"
+							alt="Pokój hotelowy z dwoma łóżkami oraz dwiema zaświeconymi lampami nocnymi, łóżka są ładnie i schludnie pościelone dla przyszłych klientów"
+							class="accomodation__image"
+						/>
+						<p class="accomodation__text">
+							Oferujemy Państwu pokoje oraz pokoje typu studio 1-4-osobowe w
+							zabytkowej części Katowic – Giszowcu. W każdym pokoju znajdują się
+							łóżka, szafa, biurko, telewizor z płaskim ekranem oraz łazienka z
+							ręcznikami. W pokojach typu studio znajdują się aneksy kuchenne (
+							lodówka, płyta grzewcza).
+						</p>
+					</div>
+					<div class="accomodation__item accomodation__item--reversed">
+						<img
+							src="./assets/images/accomodation/accomodation-2.png"
+							alt="Pokój hotelowy z drewnianym biurkiem, brązowym krzesłem, białą lampą oraz średniej wielkości czarnym telewizorem. Nie brakuje również dużej szafy na najpotrzebniejsze rzeczy klientów"
+							class="accomodation__image"
+						/>
+						<p class="accomodation__text">
+							Na terenie posesji znajduje się parking. Możliwość zamówienia
+							śniadania w Restauracji Dworek
+							<span class="text-newline">„Pod Lipami”.</span> Odbiór kluczy w
+							Restauracji Dworek „Pod Lipami ” Plac „Pod Lipami” 1 Katowice.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="gallery">
+				<h2 class="gallery__heading section-heading-secondary">Galeria</h2>
+				<div class="gallery__carousel wrapper">
+					<div class="gallery__carousel-group">
+						<img
+							src="./assets/images/gallery/gallery-1.png"
+							alt="Okrągły stół z białym obrusem i przygotowanymi sztućcami, na środku znajduje się piękny kwiatek który nadaje całości charakteru"
+							class="gallery__image"
+						/>
+						<img
+							src="./assets/images/gallery/gallery-2.png"
+							alt="Duży stół pokryty białym obrusem, znajdują się na nim żółte kwiaty duże bordowe książki oraz naczynia i sztućce, nie brakuje również serwetek"
+							class="gallery__image"
+						/>
+						<img
+							src="./assets/images/gallery/gallery-3.png"
+							alt="Duży prostokątny stół z czerwonymi krzesłami w pięknym pomieszczeniu o ciemno brązowych kolorach, na stole znajdują się serwetki, szklanki oraz dzbanki z wodą, nie brakuje również dużych i ciekawych świeczników"
+							class="gallery__image"
+						/>
+					</div>
+					<div class="gallery__carousel-group">
+						<img
+							src="./assets/images/gallery/gallery-1.png"
+							alt="Okrągły stół z białym obrusem i przygotowanymi sztućcami, na środku znajduje się piękny kwiatek który nadaje całości charakteru"
+							class="gallery__image"
+						/>
+						<img
+							src="./assets/images/gallery/gallery-2.png"
+							alt="Duży stół pokryty białym obrusem, znajdują się na nim żółte kwiaty duże bordowe książki oraz naczynia i sztućce, nie brakuje również serwetek"
+							class="gallery__image"
+						/>
+						<img
+							src="./assets/images/gallery/gallery-3.png"
+							alt="Duży prostokątny stół z czerwonymi krzesłami w pięknym pomieszczeniu o ciemno brązowych kolorach, na stole znajdują się serwetki, szklanki oraz dzbanki z wodą, nie brakuje również dużych i ciekawych świeczników"
+							class="gallery__image"
+						/>
+					</div>
+					<div class="gallery__carousel-group">
+						<img
+							src="./assets/images/gallery/gallery-1.png"
+							alt="Okrągły stół z białym obrusem i przygotowanymi sztućcami, na środku znajduje się piękny kwiatek który nadaje całości charakteru"
+							class="gallery__image"
+						/>
+						<img
+							src="./assets/images/gallery/gallery-2.png"
+							alt="Duży stół pokryty białym obrusem, znajdują się na nim żółte kwiaty duże bordowe książki oraz naczynia i sztućce, nie brakuje również serwetek"
+							class="gallery__image"
+						/>
+						<img
+							src="./assets/images/gallery/gallery-3.png"
+							alt="Duży prostokątny stół z czerwonymi krzesłami w pięknym pomieszczeniu o ciemno brązowych kolorach, na stole znajdują się serwetki, szklanki oraz dzbanki z wodą, nie brakuje również dużych i ciekawych świeczników"
+							class="gallery__image"
+						/>
+					</div>
+					<div class="gallery__carousel-group">
+						<img
+							src="./assets/images/gallery/gallery-1.png"
+							alt="Okrągły stół z białym obrusem i przygotowanymi sztućcami, na środku znajduje się piękny kwiatek który nadaje całości charakteru"
+							class="gallery__image"
+						/>
+						<img
+							src="./assets/images/gallery/gallery-2.png"
+							alt="Duży stół pokryty białym obrusem, znajdują się na nim żółte kwiaty duże bordowe książki oraz naczynia i sztućce, nie brakuje również serwetek"
+							class="gallery__image"
+						/>
+						<img
+							src="./assets/images/gallery/gallery-3.png"
+							alt="Duży prostokątny stół z czerwonymi krzesłami w pięknym pomieszczeniu o ciemno brązowych kolorach, na stole znajdują się serwetki, szklanki oraz dzbanki z wodą, nie brakuje również dużych i ciekawych świeczników"
+							class="gallery__image"
+						/>
+					</div>
+				</div>
+				<ul class="gallery__slider-dots">
+					<li class="gallery__slider-dots-dot"></li>
+					<li
+						class="gallery__slider-dots-dot gallery__slider-dots-dot--active"
+					></li>
+					<li class="gallery__slider-dots-dot"></li>
+				</ul>
+			</section>
+			<section class="contact">
+				<div class="wrapper">
+					<div class="contact__container">
+						<h2 class="contact__heading">Kontakt</h2>
+						<img
+							class="contact__logo"
+							src="./assets/global/logo-transparent.png"
+							alt="Czerwone logo z charakterystycznymi liściami dworku pod lipami"
+						/>
+						<form action="" class="contact__form">
+							<input
+								class="contact__input"
+								type="text"
+								name="name"
+								placeholder="Imię i Nazwisko:"
+							/>
+
+							<input
+								class="contact__input"
+								type="tel"
+								name="phone"
+								placeholder="Telefon:"
+							/>
+
+							<input
+								class="contact__input"
+								type="email"
+								name="email"
+								placeholder="E-mail:"
+							/>
+
+							<textarea
+								name="message"
+								class="contact__input contact__textarea"
+								placeholder="Wiadomość:"
+								cols="30"
+								rows="1"
+							></textarea>
+
+							<input class="contact__button" type="submit" value="Wyślij" />
+							<a href="#" class="contact__terms">Akceptuję regulamin</a>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container wrapper">
+				<a href="#" class="footer__logo" aria-label="Przejdź do strony głównej"
+					><img
+						src="./assets/global/logo-white.svg"
+						alt="Białe logo z charakterystycznymi liściami dworku pod lipami"
+				/></a>
+				<p class="footer__location">
+					Restauracja Dworek „Pod Lipami”
+					<span class="text-newline">PLAC POD LIPAMI 1</span> 40-476 KATOWICE
+				</p>
+				<div class="footer__contact">
+					<a
+						href="tel:327939551"
+						class="footer__link"
+						aria-label="Telefon kontaktowy dworku pod lipami"
+						><img
+							class="footer__link-icon"
+							src="./assets/icons/mobile-phone.svg"
+							alt=""
+						/>
+						32 793 95 51</a
+					>
+					<a
+						href="tel:48504758675"
+						class="footer__link"
+						aria-label="Telefon kontaktowy dworku pod lipami"
+						><img
+							class="footer__link-icon"
+							src="./assets/icons/landline-phone.svg"
+							alt=""
+						/>
+						+48 504 75 86 75</a
+					>
+					<a
+						href="tel:608878928"
+						class="footer__link"
+						aria-label="Telefon kontaktowy dworku pod lipami"
+						><img
+							class="footer__link-icon"
+							src="./assets/icons/landline-phone.svg"
+							alt=""
+						/>
+						+48 608 87 89 28</a
+					>
+					<a
+						href="mailto:dworekpodlipamikatowice@op.pl"
+						class="footer__link"
+						aria-label="Adres email dworku pod lipami"
+						><img
+							class="footer__link-icon"
+							src="./assets/icons/email.svg"
+							alt=""
+						/>
+						dworekpodlipamikatowice@op.pl</a
+					>
+				</div>
+				<div class="footer__author">
+					<p class="footer__author-text">
+						©2020 -Dworek Pod Lipami | Realizacja: singlepage.pl
+					</p>
+					<div class="footer__author-sociallinks">
+						<a
+							href="#"
+							class="footer__author-link"
+							aria-label="Przejdź na facebooka dworku pod lipami"
+						>
+							<img src="./assets/icons/facebook.svg" alt="" />
+						</a>
+						<a
+							href="#"
+							class="footer__author-link"
+							aria-label="Przejdź na instagram dworku pod lipami"
+						>
+							<img src="./assets/icons/instagram.svg" alt="" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>
