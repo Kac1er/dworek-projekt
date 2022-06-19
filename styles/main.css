@@ -653,6 +653,7 @@ max-width: 550px;
 
 .contact__input::placeholder {
 	color: var(--dark-text-color);
+	font-family: 'Open Sans', sans-serif;
 }
 .contact__input {
 	grid-column: 1 / 3;
